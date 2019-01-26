@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    tools:context="com.example.akashkumar.a_2_zplayer.alltime">
+
+    <view
+        class="com.google.android.youtube.player.YouTubePlayerView"
+        id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="39dp"
+        android:id="@+id/alltimeyoutube1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue2"
+        android:textColor="@color/blue3"
+        android:text="NON-STOP ALL TIME HIT SONG ClICK"
+        android:id="@+id/alltime"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt1"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="1. Nashe Si Chadh Gayi Song | Befikre | Ranveer Singh | Vaani Kapoor | Arijit Singh"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt2"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="2. Mile Ho Tum - Reprise Version | Neha Kakkar | Tony Kakkar"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/bt3"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="3. Kala Chashma | Baar Baar Dekho | Sidharth M Katrina K | Prem and Hardeep ft Badshah Neha K Indeep "/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt4"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="4. Swag Se Swagat Song | Tiger Zinda Hai | Salman Khan | Katrina Kaif | Vishal Dadlani | Neha Bhasin "/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt5"
+
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="5.Badri Ki Dulhania (Title Track) Varun, Alia, Tanishk, Neha, Monali, Ikka "/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt6"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="6. Guru Randhawa: Lahore (Official Video) Bhushan Kumar "/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt7"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="7.PREM RATAN DHAN PAYO' Title Song (Full VIDEO) | Salman Khan, Sonam Kapoor | Palak Muchha  "/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt8"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="8.Dheere Dheere Se Meri Zindagi Video Song (OFFICIAL) Hrithik Roshan, Sonam Kapoor | Yo Yo Honey Singh  "/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt9"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="9.Laila Main Laila | Raees | Shah Rukh Khan | Sunny Leone | Pawni Pandey | Ram Sampath  "/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt10"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="10.Ding Dang - Video Song | Munna Michael | Tiger Shroff and Nidhhi Agerwal "/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt11"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="11. Dil Diyan Gallan Song | Tiger Zinda Hai | Salman Khan | Katrina Kaif | Atif Aslam"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt12"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="12. 3 Peg Sharry Mann(Full Video) | Mista Baaz | Parmish Verma "/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt13"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="13. Cheez Badi Full Video | Machine | Mustafa and Kiara Advani | Udit Narayan and Neha Kakkar "/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt14"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="14.Tamma Tamma Again | Varun , Alia | Bappi L, Anuradha P | Tanishk, Badshah"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt15"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="15. The Humma Song – OK Jaanu | Shraddha Kapoor | Aditya Roy Kapur | A.R. Rahman, Badshah, Tanishk"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt16"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="16. Hardy Sandhu - Backbone | Jaani | B Praak | Zenith Sidhu"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt17"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="17. Chittiyaan Kalaiyaan' FULL VIDEO SONG | Roy | Meet Bros Anjjan, Kanika Kapoor "/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt18"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="18.Cham Cham Full Video | BAAGHI | Tiger Shroff, Shraddha Kapoor| Meet Bros, Monali Thakur| Sabbir Khan "/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt19"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="19.Mere Rashke Qamar Tu Ne Pehli Nazar - By Junaid Asghar "/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt20"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="20.Kar Gayi Chull - Kapoor and Sons | Sidharth Malhotra | Alia Bhatt | Badshah | Amaal Mallik |Fazilpuria "/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

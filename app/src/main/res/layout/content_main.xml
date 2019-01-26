@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:background="@drawable/bg2"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.akashkumar.a_2_zplayer.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:orientation="vertical">
+
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/adview"
+            ads:adSize="BANNER"
+
+            ads:adUnitId="ca-app-pub-4614943972616024/6004020742"
+
+            >
+
+        </com.google.android.gms.ads.AdView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TOP CHART"
+
+        android:textStyle="bold"
+        android:textAlignment="center"
+
+        android:textSize="25sp"
+        android:textColor="@color/white"/>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/bollywood"
+                android:layout_width="150dp"
+                android:layout_height="101dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/latest" />
+            <Button
+                android:id="@+id/alltime"
+                android:layout_width="150dp"
+                android:layout_height="101dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/alltime" />
+
+            <Button
+                android:id="@+id/international"
+                android:layout_width="150dp"
+                android:layout_height="101dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/international" />
+            <Button
+                android:id="@+id/itemsong"
+                android:layout_width="150dp"
+                android:layout_height="101dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/item" />
+
+            <Button
+                android:id="@+id/party"
+                android:layout_width="150dp"
+                android:layout_height="101dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/party" />
+
+            <Button
+                android:id="@+id/wedding"
+                android:layout_width="150dp"
+                android:layout_height="101dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/wedding" />
+
+
+            <Button
+                android:id="@+id/bt"
+                android:layout_width="150dp"
+                android:layout_height="101dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/latest" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bollywood Male Singer"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:textColor="@color/white"/>
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/yoyo"
+                    android:layout_width="150dp"
+                    android:layout_height="101dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/yoyo123" />
+
+                <Button
+                    android:id="@+id/mika"
+                    android:layout_width="150dp"
+                    android:layout_height="101dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/mika12" />
+
+                <Button
+                    android:id="@+id/badshah"
+                    android:layout_width="150dp"
+                    android:layout_height="101dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/badshah12" />
+
+                <Button
+                    android:id="@+id/arjit"
+                    android:layout_width="150dp"
+                    android:layout_height="101dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/arjit12" />
+
+                <Button
+                    android:id="@+id/guru"
+                    android:layout_width="150dp"
+                    android:layout_height="101dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/guru12" />
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="International Male Singer"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:textColor="@color/white"/>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/justil"
+                    android:layout_width="150dp"
+                    android:layout_height="101dp"
+                    android:layout_margin="10dp"
+
+                    android:background="@drawable/justil12" />
+
+                <Button
+                    android:id="@+id/joson"
+                    android:layout_width="150dp"
+                    android:layout_height="101dp"
+                    android:layout_margin="10dp"
+
+                    android:background="@drawable/jason12" />
+
+                <Button
+                    android:id="@+id/pipbull"
+                    android:layout_width="150dp"
+                    android:layout_height="101dp"
+                    android:layout_margin="10dp"
+
+                    android:background="@drawable/pitpull12" />
+
+                <Button
+                    android:id="@+id/chiris"
+                    android:layout_width="150dp"
+                    android:layout_height="101dp"
+                    android:layout_margin="10dp"
+                    android:padding="20dp"
+                    android:background="@drawable/chiris" />
+
+                <Button
+                    android:id="@+id/devid2"
+                    android:layout_width="150dp"
+                    android:layout_height="101dp"
+                    android:layout_margin="10dp"
+
+                    android:background="@drawable/david12" />
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bollywood Female Singer"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:textColor="@color/white"/>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/sheray"
+                    android:layout_width="150dp"
+                    android:layout_height="101dp"
+                    android:layout_margin="10dp"
+
+                    android:background="@drawable/shera12" />
+
+                <Button
+                    android:id="@+id/kanika"
+                    android:layout_width="150dp"
+                    android:layout_height="101dp"
+                    android:layout_margin="10dp"
+
+                    android:background="@drawable/kanika12" />
+
+                <Button
+                    android:id="@+id/neeti"
+                    android:layout_width="150dp"
+                    android:layout_height="101dp"
+                    android:layout_margin="10dp"
+
+                    android:background="@drawable/neeti12" />
+
+                <Button
+                    android:id="@+id/palak"
+                    android:layout_width="150dp"
+                    android:layout_height="101dp"
+                    android:layout_margin="10dp"
+                    android:padding="20dp"
+                    android:background="@drawable/palak12" />
+
+                <Button
+                    android:id="@+id/neha"
+                    android:layout_width="150dp"
+                    android:layout_height="101dp"
+                    android:layout_margin="10dp"
+
+                    android:background="@drawable/neha12" />
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="International Female Singer"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:textColor="@color/white"/>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/sakira"
+                    android:layout_width="150dp"
+                    android:layout_height="101dp"
+                    android:layout_margin="10dp"
+
+                    android:background="@drawable/sakira12" />
+
+                <Button
+                    android:id="@+id/lady"
+                    android:layout_width="150dp"
+                    android:layout_height="101dp"
+                    android:layout_margin="10dp"
+
+                    android:background="@drawable/lady" />
+
+                <Button
+                    android:id="@+id/modanna"
+                    android:layout_width="150dp"
+                    android:layout_height="101dp"
+                    android:layout_margin="10dp"
+
+                    android:background="@drawable/modanan" />
+
+                <Button
+                    android:id="@+id/katy"
+                    android:layout_width="150dp"
+                    android:layout_height="101dp"
+                    android:layout_margin="10dp"
+                    android:padding="20dp"
+                    android:background="@drawable/katy12" />
+
+                <Button
+                    android:id="@+id/marish"
+                    android:layout_width="150dp"
+                    android:layout_height="101dp"
+                    android:layout_margin="10dp"
+
+                    android:background="@drawable/marish12" />
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+       android:background="@color/black1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/navigation" />
+
+
+
+</android.support.constraint.ConstraintLayout>

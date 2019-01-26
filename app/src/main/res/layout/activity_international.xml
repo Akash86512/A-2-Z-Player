@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    tools:context="com.example.akashkumar.a_2_zplayer.International">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TOP 20 INTERNATIONAL SONG"
+
+        android:textStyle="bold"
+        android:textAlignment="center"
+
+        android:layout_margin="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/white1"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt1"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="1.Luis Fonsi - Despacito ft. Daddy Yankee "/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt2"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="2.Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack "/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/bt3"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="3.Ed Sheeran - Shape of You "/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt4"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="4. PSY - GANGNAM STYLE "/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt5"
+
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="5.Mark Ronson - Uptown Funk ft. Bruno Mars "/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt6"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="6.Justin Bieber - Sorry  "/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt7"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="7. Justin Bieber - Boyfriend"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt8"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="8. DJ Snake - Let Me Love You ft. Justin Bieber"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt9"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="9.Jason Derulo - Swalla (feat. Nicki Minaj and Ty Dolla $ign) "/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt10"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="10. Shakira ft. Maluma"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt11"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="11.El Chombo - Dame Tu Cosita"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt12"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="12.Major Lazer and DJ Snake - Lean On (feat. MØ) "/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt13"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="13.DJ Bravo - Champion "/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt14"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="14.Charlie Puth - Attention"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt15"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="15.Alan Walker - Faded "/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt16"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="16.Marshmello and Anne-Marie - FRIENDS "/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt17"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="17. Dua Lipa - New Rules"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt18"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="18.Clean Bandit - Rockabye ft. Sean Paul and Anne-Marie "/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt19"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="19.Bruno Mars - That’s What I Like  "/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt20"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="20. Ed Sheeran - Thinking Out Loud"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

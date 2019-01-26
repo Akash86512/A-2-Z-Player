@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    tools:context="com.example.akashkumar.a_2_zplayer.sherya">
+    <view
+        class="com.google.android.youtube.player.YouTubePlayerView"
+        id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="39dp"
+        android:id="@+id/sheryayoutube1"/>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/adview"
+        ads:adSize="BANNER"
+
+        ads:adUnitId="ca-app-pub-4614943972616024/6004020742"
+
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue2"
+        android:textColor="@color/blue3"
+        android:text="NON-STOP PLAY SHREYA GHOSHAL SONG CLICK"
+        android:id="@+id/sherya1"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt1"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="1.Padmaavat Song Ghoomar: Deepika Padukone, Shahid Kapoor, Ranveer Singh|Shreya Ghoshal,Swaroop  "/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt2"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="2.Radha - SOTY | Alia Bhatt | Sidharth Malhotra | Varun Dhawan "/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/bt3"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="3.Deewani Mastani | Official Video Song | Bajirao Mastani | Deepika Padukone, Ranveer Singh, Priyanka  "/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt4"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="4. Sun Raha Hai Na Tu Female Version By Shreya Ghoshal Aashiqui 2 "/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt5"
+
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="5.Mashallah - Full Song | Ek Tha Tiger | Salman Khan | Katrina Kaif | Wajid | Shreya Ghoshal"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt6"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="6.Saans - Full Song - Jab Tak Hai Jaan | Shah Rukh Khan | Katrina Kaif "/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt7"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="7. 'Manwa Laage' FULL VIDEO Song | Happy New Year | Shah Rukh Khan | Arijit Singh "/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt8"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="8.Teri Ore | Singh Is Kinng | Akshay Kumar | Katrina Kaif | Rahat Fateh Ali Khan | Shreya Ghoshal "/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt9"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="9.Aashiq Surrender Hua Video Song | Varun, Alia | Amaal Mallik, Shreya Ghoshal "/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt10"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="10.wOlWX4TZIy4 "/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

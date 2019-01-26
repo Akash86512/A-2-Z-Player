@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    >
+
+    <view
+        class="com.google.android.youtube.player.YouTubePlayerView"
+        id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="39dp"
+        android:id="@+id/chrisyoutube1"/>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/adview"
+        ads:adSize="BANNER"
+
+        ads:adUnitId="ca-app-pub-4614943972616024/6004020742"
+
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue2"
+        android:textColor="@color/blue3"
+        android:text="NON-STOP PLAY CHRIS BROWN SONG CLICK"
+        android:id="@+id/chiris1"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt1"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="1.Chris Brown - Loyal ft.Lil Wayne,Tyga  "/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt2"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="2. Deorro x Chris Brown - Five More Hours ( "/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/bt3"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="3.Chris Brown  Joyner Lucas - Stranger Things  "/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt4"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="4.Chris Brown - Privacy  "/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt5"
+
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="5.Chris Brown, Tyga - Ayo"/>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

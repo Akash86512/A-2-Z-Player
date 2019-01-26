@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    tools:context="com.example.akashkumar.a_2_zplayer.bollywood1">
+
+    <view
+        class="com.google.android.youtube.player.YouTubePlayerView"
+        id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="39dp"
+        android:id="@+id/bollywoodyoutube1"/>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/adview"
+        ads:adSize="BANNER"
+
+        ads:adUnitId="ca-app-pub-4614943972616024/6004020742"
+
+        >
+
+    </com.google.android.gms.ads.AdView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NON-STOP PLAY LATEST SONG CLICK"
+        android:id="@+id/bolluwood1"
+
+        android:textStyle="bold"
+        android:background="@color/blue2"
+        android:textColor="@color/blue3"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt1"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="1. Aastha Gill - Buzz feat Badshah | Priyank Sharma | Official Music Video"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+              android:id="@+id/bt2"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="2. Guru Randhawa: Lahore (Official Video) Bhushan Kumar | DirectorGifty"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/bt3"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="3. Suit Full Video Song | Guru Randhawa Feat. Arjun"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          android:id="@+id/bt4"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="4. Na Ja (Official Video) Pav Dharia | New Punjabi Songs 2018 "/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt5"
+
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="5. Dil Diyan Gallan Song | Tiger Zinda Hai | Salman Khan | Katrina Kaif | Atif Aslam"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+android:id="@+id/bt6"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="6. Kala Chashma | Baar Baar Dekho | Sidharth M Katrina K | Prem and Hardeep ft Badshah Neha K Indeep"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+android:id="@+id/bt7"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="7.  Swag Se Swagat | Song with Lyrics | Tiger Zinda Hai | Salman Khan | Katrina Kaif"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+              android:id="@+id/bt8"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="8. Main Tera Boyfriend Song | Raabta | Arijit S | Neha K Meet Bros | Sushant Singh Rajput Kriti Sanon"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+android:id="@+id/bt9"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="9. The Breakup Song - Ae Dil Hai Mushkil | Latest Official Song 2016 | Pritam | Arijit I Badshah"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+android:id="@+id/bt10"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="10. Naah - Harrdy Sandhu Feat. Nora Fatehi | Jaani | B Praak "/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+android:id="@+id/bt11"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="11.Aaj Se Teri | Padman | Akshay Kumar and Radhika Apte | Arijit Singh | Amit Trivedi"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:id="@+id/bt12"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="12. Ghoomar: Deepika Padukone, Shahid Kapoor, Ranveer Singh|Shreya Ghoshal,Swaroop Khan"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+android:id="@+id/bt13"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="13. Badri Ki Dulhania (Title Track) Varun, Alia, Tanishk, Neha, Monali, Ikka"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+android:id="@+id/bt14"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="14.Mercy - Badshah Feat. Lauren Gottlieb"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+android:id="@+id/bt15"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="15. Patola Lyrical Video | Blackmail | Irrfan Khan and Kirti Kulhari | Guru Randhawa"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt16"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="16. Yo Yo Honey Singh: DIL CHORI (Video) Simar Kaur, Ishers | Hans Raj Hans | Sonu Ke Titu Ki Sweety"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+android:id="@+id/bt17"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="17. Lift Teri Bandh Hai Song | Judwaa 2 | Varun | Jacqueline | Taapsee | David Dhawan | Anu Malik"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+android:id="@+id/bt18"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="18. Chalti Hai Kya 9 Se 12 Song | Judwaa 2 | Varun | Jacqueline | Taapsee | David Dhawan | Anu Malik"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+android:id="@+id/bt19"
+                android:textColor="@color/white1"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="@color/blue"
+                android:text="19. Jagga Jasoos: Galti Se Mistake Video Song | Ranbir, Katrina | Pritam, Arijit, Amit | Amitabh B"/>
+                <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:id="@+id/bt20"
+                android:textAlignment="center"
+                android:textColor="@color/white1"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:background="@color/green"
+                android:text="20. Padmaavat: Khalibali - Ranveer Singh | Deepika Padukone | Shahid Kapoor | Shivam Pathak"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

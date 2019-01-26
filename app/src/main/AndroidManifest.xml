@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.akashkumar.a_2_zplayer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Buttonnavigation"
+            android:label="@string/title_activity_buttonnavigation" />
+        <activity android:name=".Movie" />
+        <activity android:name=".livenews" />
+        <activity android:name=".Bollywood" />
+        <activity android:name=".bhojpuri" />
+        <activity android:name=".bollywood1" />
+        <activity android:name=".International" />
+        <activity android:name=".itemsong" />
+        <activity android:name=".lovesong" />
+        <activity android:name=".Partysong" />
+        <activity android:name=".Wedding" />
+        <activity android:name=".panjabi" />
+        <activity android:name=".Honeysingh" />
+        <activity android:name=".Mikasingh" />
+        <activity android:name=".Arjit" />
+        <activity android:name=".Badshah" />
+        <activity android:name=".gururandhawa" />
+        <activity android:name=".justil" />
+        <activity android:name=".jason" />
+        <activity android:name=".david" />
+        <activity android:name=".pipbull" />
+        <activity android:name=".chris" />
+        <activity android:name=".sherya" />
+        <activity android:name=".kanika" />
+        <activity android:name=".neeti" />
+        <activity android:name=".palak" />
+        <activity android:name=".neha" />
+        <activity android:name=".sakira" />
+        <activity android:name=".lady" />
+        <activity android:name=".modonna" />
+        <activity android:name=".katy" />
+        <activity android:name=".marish" />
+        <activity android:name=".Front" />
+        <activity android:name=".alltime"></activity>
+        <activity android:name=".Second"></activity>
+    </application>
+
+</manifest>

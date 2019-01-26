@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    tools:context="com.example.akashkumar.a_2_zplayer.livenews">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/adview"
+        ads:adSize="BANNER"
+
+        ads:adUnitId="ca-app-pub-4614943972616024/6004020742"
+
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="155dp"
+                android:layout_height="130dp"
+                android:layout_margin="15dp"
+                android:id="@+id/aajtak"
+                android:background="@drawable/aajtak" />
+            <Button
+                android:layout_width="155dp"
+                android:layout_height="130dp"
+                android:layout_margin="15dp"
+                android:id="@+id/indiatv"
+                android:background="@drawable/indiatv" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="155dp"
+                android:layout_height="130dp"
+                android:layout_margin="15dp"
+                android:id="@+id/tej"
+                android:background="@drawable/tej" />
+            <Button
+                android:layout_width="155dp"
+                android:layout_height="130dp"
+               android:id="@+id/indiatoday"
+                android:layout_margin="15dp"
+                android:background="@drawable/indiatoday" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="155dp"
+                android:layout_height="130dp"
+                android:layout_margin="15dp"
+                android:id="@+id/dd"
+                android:background="@drawable/dd" />
+            <Button
+                android:layout_width="155dp"
+                android:layout_height="130dp"
+                android:layout_margin="15dp"
+                android:id="@+id/fox"
+                android:background="@drawable/fox" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+
+
+</LinearLayout>
